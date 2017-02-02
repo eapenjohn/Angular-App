@@ -1,0 +1,10 @@
+plugins:
+    - jasmine
+env:
+    jasmine: true
+extends: 'plugin:jasmine/recommended'
+rules:
+    jasmine/no-focused-tests: 2
+    jasmine/no-suite-dupes:
+        - 2
+        - branch

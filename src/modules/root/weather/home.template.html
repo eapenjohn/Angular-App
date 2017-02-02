@@ -1,0 +1,17 @@
+<div class="container-fluid">
+	<div class="row">
+		<h3>London</h3>
+		<div>
+		<div ng-repeat="item in data" class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">{{item.dt_txt | date:'dd-MM-yyyy HH:mm:ss Z'}}</div>
+					<div class="panel-body">{{item.weather[0].description}} <img src="http://openweathermap.org/img/w/{{item.weather[0].icon}}.png"></i>
+					</div>
+					<div class="panel-footer">Panel Footer</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>

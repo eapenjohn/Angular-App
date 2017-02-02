@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='./contents/images/favicon.png')
+    title City Data Exchange - Smart Copenhagen
+    // for hiding the angular items in its skeleton a direct script will do better job
+    style(type='text/css').
+      .ng-cloak {
+      display: none !important;
+      }
+      [ui-sref]{cursor:pointer}
+  body
+    ui-view
+    script(src='googleAnalytics.js')

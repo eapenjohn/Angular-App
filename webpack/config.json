@@ -1,0 +1,7 @@
+{
+    "root": "../",
+    "src": "src",
+    "dest": "dist",
+    "server_port": 8080,
+    "devserver_port": 3100
+}
